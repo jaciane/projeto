@@ -1,0 +1,1547 @@
+2014-11-27 19:39:27 Error: [MissingViewException] View file "C:\xampp\htdocs\projeto\app\View\Common\view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\projeto\\app\\View\\Common\\view.ctp',
+)
+Request URL: /projeto/
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\View\View.php(718): View->_getViewFileName('/Common/view')
+#1 C:\xampp\htdocs\projeto\app\View\Pages\home.ctp(3): View->extend('/Common/view')
+#2 C:\xampp\htdocs\projeto\lib\Cake\View\View.php(948): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projeto\lib\Cake\View\View.php(910): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\projeto\lib\Cake\View\View.php(471): View->_render('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\projeto\lib\Cake\Controller\Controller.php(954): View->render('home', NULL)
+#6 C:\xampp\htdocs\projeto\app\Controller\PagesController.php(69): Controller->render('home')
+#7 [internal function]: PagesController->display('home')
+#8 C:\xampp\htdocs\projeto\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-27 19:44:20 Error: [MissingControllerException] Controller class CommonController could not be found.
+Exception Attributes: array (
+  'class' => 'CommonController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/Common/view.ctp
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-27 19:44:24 Error: [MissingControllerException] Controller class CommonController could not be found.
+Exception Attributes: array (
+  'class' => 'CommonController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/Common/
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 21:03:52 Error: [MissingControllerException] Controller class ...webrootController could not be found.
+Exception Attributes: array (
+  'class' => '...webrootController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/...webroot/img/img-site.jpeg
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 21:04:56 Error: [MissingControllerException] Controller class ...webrootController could not be found.
+Exception Attributes: array (
+  'class' => '...webrootController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/...webroot/img/img-site.jpeg
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 21:12:35 Error: [MissingControllerException] Controller class ...webrootController could not be found.
+Exception Attributes: array (
+  'class' => '...webrootController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/...webroot/img/img-site.jpeg
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 21:13:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/img/img-site.jpeg
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 21:14:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/img/img-site.jpeg
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 21:15:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/img/img-site.jpeg
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 21:18:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/img/img-site.jpeg
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-27 15:29:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/img/img-site.jpeg
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-27 17:04:19 Error: [CakeException] You cannot use "" as a domain.
+Request URL: /projeto/
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\basics.php(617): I18n::translate('The Luxry', NULL, '')
+#1 C:\xampp\htdocs\projeto\app\View\Layouts\default.ctp(17): __d('', 'The Luxry')
+#2 C:\xampp\htdocs\projeto\lib\Cake\View\View.php(948): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projeto\lib\Cake\View\View.php(910): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\projeto\lib\Cake\View\View.php(542): View->_render('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\projeto\lib\Cake\View\View.php(479): View->renderLayout('', 'default')
+#6 C:\xampp\htdocs\projeto\lib\Cake\Controller\Controller.php(954): View->render('home', NULL)
+#7 C:\xampp\htdocs\projeto\app\Controller\PagesController.php(69): Controller->render('home')
+#8 [internal function]: PagesController->display('home')
+#9 C:\xampp\htdocs\projeto\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-02-06 19:58:04 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/user
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 20:09:56 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/user
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 20:10:05 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/users
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 20:10:49 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/user
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 20:10:54 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/users
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 20:18:29 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\xampp\htdocs\projeto\app\Model\Role.php, line 15]
+2015-02-06 20:18:29 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /projeto/roles
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-06 20:19:40 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\xampp\htdocs\projeto\app\Model\Role.php, line 15]
+2015-02-06 20:19:40 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /projeto/roles
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-06 20:19:41 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\xampp\htdocs\projeto\app\Model\Role.php, line 15]
+2015-02-06 20:19:41 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /projeto/roles
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-06 21:19:47 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/users
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 21:38:11 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/users
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 21:38:13 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/users
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 21:38:13 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/users
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 21:38:13 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/users
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 21:38:15 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/users
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 21:38:16 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/users
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-09 19:02:18 Error: [MissingControllerException] Controller class UsersRoleController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersRoleController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/users_role
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-09 19:02:51 Error: [MissingControllerException] Controller class UsersRoleController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersRoleController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/usersRole
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-09 19:03:20 Error: [MissingControllerException] Controller class UsersRoleController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersRoleController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/UsersRole
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-09 19:04:09 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\projeto\app\Controller\UsersRolesController.php, line 60]
+2015-02-09 19:04:09 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /projeto/usersroles/add
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 60, Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 60, Array)
+#3 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-09 19:04:33 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\projeto\app\Controller\UsersRolesController.php, line 60]
+2015-02-09 19:04:33 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /projeto/usersroles/add
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 60, Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 60, Array)
+#3 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-09 19:05:18 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\projeto\app\Controller\UsersRolesController.php, line 60]
+2015-02-09 19:05:18 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /projeto/usersroles/add
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 60, Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 60, Array)
+#3 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-09 19:07:12 Error: [NotFoundException] Invalid users role
+Request URL: /projeto/usersroles/delete/0
+Stack Trace:
+#0 [internal function]: UsersRolesController->delete('0')
+#1 C:\xampp\htdocs\projeto\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersRolesController), Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersRolesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-09 19:07:18 Error: [NotFoundException] Invalid users role
+Request URL: /projeto/usersroles/delete/0
+Stack Trace:
+#0 [internal function]: UsersRolesController->delete('0')
+#1 C:\xampp\htdocs\projeto\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersRolesController), Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersRolesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-09 19:07:23 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\projeto\app\Controller\UsersRolesController.php, line 87]
+2015-02-09 19:07:23 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /projeto/usersroles/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 87, Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 87, Array)
+#3 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-09 20:58:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/img/img-site.png
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-10 15:39:15 Error: [MissingControllerException] Controller class SiteController could not be found.
+Exception Attributes: array (
+  'class' => 'SiteController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-10 15:42:07 Error: [MissingActionException] Action SiteController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'SiteController',
+  'action' => 'display',
+)
+Request URL: /projeto/
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SiteController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-10 17:58:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/cake.geniric.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-10 18:30:48 Error: [MissingControllerException] Controller class Teste.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Teste.phpController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/teste.php
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-10 18:31:52 Error: [MissingControllerException] Controller class Teste.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Teste.phpController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/teste.php
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 18:13:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/img/content.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 19:45:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 19:45:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 19:45:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 19:45:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 19:45:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 19:45:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 19:45:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 19:46:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 19:57:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 19:57:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 19:57:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 19:57:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 19:57:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 19:57:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 19:58:16 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\projeto\app\Controller\AppController.php, line 23]
+2015-02-11 19:58:16 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /projeto/
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-11 19:58:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 19:58:16 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\projeto\app\Controller\AppController.php, line 23]
+2015-02-11 19:58:16 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-11 19:58:17 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\projeto\app\Controller\AppController.php, line 23]
+2015-02-11 19:58:17 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /projeto/
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-11 19:58:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 19:58:17 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\projeto\app\Controller\AppController.php, line 23]
+2015-02-11 19:58:17 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-11 19:58:17 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\projeto\app\Controller\AppController.php, line 23]
+2015-02-11 19:58:17 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /projeto/
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-11 19:58:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 19:58:17 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\projeto\app\Controller\AppController.php, line 23]
+2015-02-11 19:58:17 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-11 19:58:17 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\projeto\app\Controller\AppController.php, line 23]
+2015-02-11 19:58:17 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /projeto/
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-11 19:58:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 19:58:17 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\projeto\app\Controller\AppController.php, line 23]
+2015-02-11 19:58:17 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-11 19:58:17 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\projeto\app\Controller\AppController.php, line 23]
+2015-02-11 19:58:17 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /projeto/
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-11 19:58:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 19:58:17 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\projeto\app\Controller\AppController.php, line 23]
+2015-02-11 19:58:17 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-11 19:58:52 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 19:58:53 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 19:58:53 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 19:58:53 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 19:59:43 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 19:59:44 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 19:59:44 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 19:59:54 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 19:59:55 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 19:59:55 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:01:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 20:01:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 20:01:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 20:01:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 20:01:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 20:08:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 20:08:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 20:08:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 20:10:07 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:10:08 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:10:08 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:10:09 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:10:09 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:10:09 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:10:09 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:10:38 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:10:41 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:10:41 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:22:36 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:22:37 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:22:37 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:23:06 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:23:06 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:23:06 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:23:07 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:25:34 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:25:34 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:25:34 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:25:35 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:25:35 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:25:35 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:25:59 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:26:00 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:26:01 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:27:32 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:51:15 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:51:16 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:51:17 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:52:31 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:53:03 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:53:29 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:55:36 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:56:09 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:56:09 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:56:17 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:56:17 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:56:29 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:56:29 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:56:38 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 20:56:38 Error: [MissingActionException] Action AppController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'css',
+)
+Request URL: /projeto/app/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 21:05:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 21:05:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 21:05:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 21:05:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-12 19:54:56 Error: [CakeException] You cannot use "" as a domain.
+Request URL: /projeto/
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\basics.php(617): I18n::translate('The Luxry', NULL, '')
+#1 C:\xampp\htdocs\projeto\app\View\Layouts\default.ctp(19): __d('', 'The Luxry')
+#2 C:\xampp\htdocs\projeto\lib\Cake\View\View.php(948): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projeto\lib\Cake\View\View.php(910): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\projeto\lib\Cake\View\View.php(542): View->_render('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\projeto\lib\Cake\View\View.php(479): View->renderLayout('', 'default')
+#6 C:\xampp\htdocs\projeto\lib\Cake\Controller\Controller.php(954): View->render('default', NULL)
+#7 C:\xampp\htdocs\projeto\app\Controller\SiteController.php(25): Controller->render('default')
+#8 [internal function]: SiteController->display('default')
+#9 C:\xampp\htdocs\projeto\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#10 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SiteController), Object(CakeRequest))
+#12 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-02-12 19:54:56 Error: [CakeException] You cannot use "" as a domain.
+Request URL: /projeto/
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\basics.php(617): I18n::translate('The Luxry', NULL, '')
+#1 C:\xampp\htdocs\projeto\app\View\Layouts\default.ctp(19): __d('', 'The Luxry')
+#2 C:\xampp\htdocs\projeto\lib\Cake\View\View.php(948): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projeto\lib\Cake\View\View.php(910): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\projeto\lib\Cake\View\View.php(542): View->_render('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\projeto\lib\Cake\View\View.php(479): View->renderLayout('', 'default')
+#6 C:\xampp\htdocs\projeto\lib\Cake\Controller\Controller.php(954): View->render('default', NULL)
+#7 C:\xampp\htdocs\projeto\app\Controller\SiteController.php(25): Controller->render('default')
+#8 [internal function]: SiteController->display('default')
+#9 C:\xampp\htdocs\projeto\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#10 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SiteController), Object(CakeRequest))
+#12 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-02-12 20:05:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/img/theluxury.png
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-12 20:06:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/img/theluxury.png
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-12 20:08:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/img/logo.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-12 20:08:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/img/logo.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 18:53:05 Error: [MissingControllerException] Controller class RoleController could not be found.
+Exception Attributes: array (
+  'class' => 'RoleController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/role
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 18:53:30 Error: [MissingControllerException] Controller class UserrolesController could not be found.
+Exception Attributes: array (
+  'class' => 'UserrolesController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/userroles
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 19:05:40 Error: [MissingActionException] Action UsersRolesController::index.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersRolesController',
+  'action' => 'index.ctp',
+)
+Request URL: /projeto/usersroles/index.ctp
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersRolesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-04 19:09:41 Error: [MissingActionException] Action UsersRolesController::list() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersRolesController',
+  'action' => 'list',
+)
+Request URL: /projeto/usersroles/list
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersRolesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-04 19:10:21 Error: [NotFoundException] Invalid users role
+Request URL: /projeto/usersroles/view
+Stack Trace:
+#0 [internal function]: UsersRolesController->view()
+#1 C:\xampp\htdocs\projeto\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersRolesController), Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersRolesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-04 19:11:15 Error: [NotFoundException] Invalid users role
+Request URL: /projeto/usersroles/view
+Stack Trace:
+#0 [internal function]: UsersRolesController->view()
+#1 C:\xampp\htdocs\projeto\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersRolesController), Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersRolesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-04 19:11:18 Error: [NotFoundException] Invalid users role
+Request URL: /projeto/usersroles/view
+Stack Trace:
+#0 [internal function]: UsersRolesController->view()
+#1 C:\xampp\htdocs\projeto\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersRolesController), Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersRolesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-04 19:12:06 Error: [NotFoundException] Invalid users role
+Request URL: /projeto/usersroles/view
+Stack Trace:
+#0 [internal function]: UsersRolesController->view()
+#1 C:\xampp\htdocs\projeto\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersRolesController), Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersRolesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-04 19:12:06 Error: [NotFoundException] Invalid users role
+Request URL: /projeto/usersroles/view
+Stack Trace:
+#0 [internal function]: UsersRolesController->view()
+#1 C:\xampp\htdocs\projeto\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersRolesController), Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersRolesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-04 19:12:06 Error: [NotFoundException] Invalid users role
+Request URL: /projeto/usersroles/view
+Stack Trace:
+#0 [internal function]: UsersRolesController->view()
+#1 C:\xampp\htdocs\projeto\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersRolesController), Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersRolesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-04 19:12:06 Error: [NotFoundException] Invalid users role
+Request URL: /projeto/usersroles/view
+Stack Trace:
+#0 [internal function]: UsersRolesController->view()
+#1 C:\xampp\htdocs\projeto\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersRolesController), Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersRolesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-04 19:12:07 Error: [NotFoundException] Invalid users role
+Request URL: /projeto/usersroles/view
+Stack Trace:
+#0 [internal function]: UsersRolesController->view()
+#1 C:\xampp\htdocs\projeto\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersRolesController), Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersRolesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
