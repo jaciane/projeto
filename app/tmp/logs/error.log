@@ -1545,3 +1545,13 @@ Stack Trace:
 #3 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersRolesController), Object(CakeRequest))
 #4 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2015-03-30 22:57:00 Error: Fatal Error (1): Call to a member function select() on a non-object in [C:\xampp\htdocs\projeto\app\View\UsersRoles\add.ctp, line 8]
+2015-03-30 22:57:00 Error: [FatalErrorException] Call to a member function select() on a non-object
+Request URL: /projeto/usersroles/add
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
