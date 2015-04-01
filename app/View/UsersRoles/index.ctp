@@ -4,20 +4,25 @@
 	<thead>
 	<tr>
 			<th><?php echo $this->Paginator->sort('id'); ?></th>
+                        <th><?php echo $this->Paginator->sort('users_id'); ?></th>
 			<th><?php echo $this->Paginator->sort('role_id'); ?></th>
-			<th><?php echo $this->Paginator->sort('users_id'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	</thead>
 	<tbody>
-	<?php foreach ($usersRoles as $usersRole): ?>
+	<?php foreach ($usersRoles as $usersRole): 
+//                    foreach ($usersRole as $usersRoleDesc){
+//                        $papelUsuario[$usersRole['UsersRole']['id']].= $usersRoleDesc['descricao'];
+//                    }
+        ?>
 	<tr>
 		<td><?php echo h($usersRole['UsersRole']['id']); ?>&nbsp;</td>
-		<td>
-			<?php echo $this->Html->link($usersRole['Role']['descricao'], array('controller' => 'roles', 'action' => 'view', $usersRole['Role']['id'])); ?>
+                <td>
+			<?php  echo $this->Html->link($usersRole['Users']['username'], array('controller' => 'users', 'action' => 'view', $usersRole['Users']['id'])); ?>
 		</td>
 		<td>
-			<?php echo $this->Html->link($usersRole['Users']['username'], array('controller' => 'users', 'action' => 'view', $usersRole['Users']['id'])); ?>
+			<?php echo $this->Html->link($usersRole['Role']['descricao'], array('controller' => 'roles', 'action' => 'view', $usersRole['Role']['id'])); 
+                        ?>
 		</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $usersRole['UsersRole']['id'])); ?>

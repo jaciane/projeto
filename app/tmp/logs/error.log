@@ -1555,3 +1555,48 @@ Stack Trace:
 #3 C:\xampp\htdocs\projeto\lib\Cake\Core\App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-03-31 19:17:34 Error: [MissingControllerException] Controller class UsersroleController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersroleController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/usersrole
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-31 19:17:51 Error: [MissingControllerException] Controller class UsersroleController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersroleController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/usersrole/]
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-31 19:17:55 Error: [MissingControllerException] Controller class UsersroleController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersroleController',
+  'plugin' => NULL,
+)
+Request URL: /projeto/usersrole/
+Stack Trace:
+#0 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-01 13:54:47 Error: [NotFoundException] Invalid user
+Request URL: /projeto/users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 C:\xampp\htdocs\projeto\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-01 14:19:23 Error: [NotFoundException] Invalid user
+Request URL: /projeto/users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 C:\xampp\htdocs\projeto\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\projeto\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\projeto\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

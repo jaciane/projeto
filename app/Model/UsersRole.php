@@ -42,7 +42,7 @@ class UsersRole extends AppModel {
 			'className' => 'Users',
 			'foreignKey' => 'users_id',
 			'conditions' => '',
-			'fields' => 'username',
+			'fields' => array('username','id'),
 			'order' => ''
 		)
 	);
