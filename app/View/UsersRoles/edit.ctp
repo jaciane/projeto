@@ -4,8 +4,16 @@
 		<legend><?php echo __('Edit Users Role'); ?></legend>
 	<?php
 		echo $this->Form->input('id');
-		echo $this->Form->input('role_id');
-		echo $this->Form->input('users_id');
+//		echo $this->Form->input('role_id');
+//		echo $this->Form->input('users_id');
+                foreach($roles as $role){
+                        $optionsRole[$role['Role']['id']] = $role['Role']['descricao'];
+                }
+                    echo $this->Form->input('role_id', array('type' => 'select', 'options' => $optionsRole ));
+                foreach($users as $user){
+                        $options[$user['Users']['id']] = $user['Users']['username'];
+                }
+                    echo $this->Form->input('users_id', array('type' => 'select', 'options' => $options ));
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>
