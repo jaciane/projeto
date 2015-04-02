@@ -84,8 +84,8 @@ class UsersRolesController extends AppController {
 			$options = array('conditions' => array('UsersRole.' . $this->UsersRole->primaryKey => $id));
 			$this->request->data = $this->UsersRole->find('first', $options);
 		}
-		$users = $this->UsersRole->Users->find('list');
-		$roles = $this->UsersRole->Role->find('list');
+		$users = $this->UsersRole->Users->find('all');
+		$roles = $this->UsersRole->Role->find('all');
 		$this->set(compact('users','roles'));
 	}
 
